@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    font-family: "baloo_paaji_2regular";
+    padding:0;
+    margin:0;
+}
+
+@font-face {
+    font-family: "baloo_paaji_2regular";
+    src: url("./components/assets/fonts/baloopaaji2-regular-webfont.woff2")
+            format("woff2"),
+        url("./components/assets/fonts/baloopaaji2-regular-webfont.woff")
+            format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+div.Body { 
+    background: #F8F8F8;
+}
+
+
+div.Body div.containr { 
+    width: 40%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    
+}
+
+div.Body div.containr h1 { 
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+div.Body div.containr h3 { 
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+div.Body div.containr ul { 
+    padding: 0 20px;
+
+}
+
+div.Body div.containr ul li { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}   
+
+div.Body div.containr ul li div.left { 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+div.Body div.containr ul li div.left div.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    border:1px solid #000;
+    margin-right: 5px;
+}
+div.Body div.containr ul li div.left h6 { 
+    font-size: 22px;
+    font-weight: 450;
+}
+
+div.Body div.containr ul li div.right { 
+
+}
+
+div.Body div.containr ul li div.right div.img-box { 
+
+}
+
+div.Body div.containr ul li div.right div.img-box img { 
+
+}
+
+div.Body div.containr form { 
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    border: 1px solid;
+    background: #fff;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-bottom: 30px;
+
+}   
+
+div.Body div.containr form div.img-box { 
+    width: 5%;
+    margin-left: 10px;
+}
+
+div.Body div.containr form div.img-box img { 
+    display: block;
+}
+
+div.Body div.containr form input { 
+    width: 75%;
+    
+    border: none;
+    font-size: 18px;
+    outline: none;
+}
+
+div.Body div.containr form button { 
+    width: 20%;
+    border: none;
+    padding: 12px;
+    background: #040241;
+    text-align: center;
+    color: #fff;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+}
+div.right.complet{
+    display: flex;align-items: center;
+}
+div.right.complet div.img-box.one{
+    margin-right: 10px;
+}
+div.img-tick-box{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 1px solid #2aca9c;
+}
